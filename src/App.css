@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.layout {
+  border: 2px solid rgb(5, 5, 19);
+  width: 90%;
+  height: 570px;
+  overflow: auto;
+  margin-top: 30%;
+}
+
+.contacts-div {
+  display: flexbox; 
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.image{
+  flex-grow: 2;
+  float: left;
+}
+button{
+  border-radius: 10%;
+  width:100px;
+  height:50px;
+  margin-left: 40px;
+}
+.moreInfo{
+  color: rgb(13, 33, 214);
+  display: right;
+  width:200px;
+  height:100px;
+}
+img{
+  border: solid;
+  border-radius: 50%; 
+  margin-right: 40px;
+}
